@@ -34,7 +34,7 @@ https://raw.githubusercontent.com/soichirow/suno-create-autosave-userscript/main
 - Suno の作成画面を開く: https://suno.com/create
 - 入力すると自動で保存されます
 - ページを再読み込みすると、直前に保存した内容が復元されます
-- Lyrics を空にしたい場合は `TM Clear` を押してください
+- Lyrics を空にしたい場合は `Clear` を押してください
   - 手で全部消すだけだと、状況によっては `[Instrumental]` が再挿入されます（仕様）
 
 ## 保存の仕組み
