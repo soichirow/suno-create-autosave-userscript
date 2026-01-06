@@ -8,6 +8,8 @@
 // @grant        GM_getValue
 // @grant        GM_setValue
 // @license      MIT
+// @author       soichirow
+// @description  Suno Create の Lyrics/Style/Title を wid ごとに自動保存・復元します。
 // @homepageURL  https://github.com/soichirow/suno-create-autosave-userscript
 // @supportURL   https://github.com/soichirow/suno-create-autosave-userscript/issues
 // @downloadURL  https://raw.githubusercontent.com/soichirow/suno-create-autosave-userscript/main/Suno-Create-Autosave.user.js
@@ -18,7 +20,7 @@
 (function () {
   "use strict";
 
-  const TAG = "[SunoTM]";
+  const TAG = "[suno-create-autosave]";
   const AUTOSAVE_MS = 5 * 60 * 1000;
 
   // ---- selectors ----
@@ -608,3 +610,4 @@
   obs.observe(document.documentElement, { childList: true, subtree: true });
   log("MutationObserver started.");
 })();
+
