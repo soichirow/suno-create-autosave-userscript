@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Suno Create: WID-aware autosave (GM)
 // @namespace    https://github.com/soichirow/suno-create-autosave-userscript
-// @version      0.81
+// @version      0.82
 // @description  Autosave & restore Lyrics/Style/Title per workspace (wid) on suno.com/create.
 // @match        https://suno.com/create*
 // @run-at       document-end
@@ -610,5 +610,6 @@
   obs.observe(document.documentElement, { childList: true, subtree: true });
   log("MutationObserver started.");
 })();
+
 
 
