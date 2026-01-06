@@ -294,8 +294,8 @@
 
     const btn = document.createElement("button");
     btn.type = "button";
-    btn.textContent = "TM Clear";
-    btn.title = "Lyrics を空にして保存（この wid では空を許容）";
+    btn.textContent = "Lyrics をクリア";
+    btn.title = "Lyrics を空にして保存（このワークスペースでは空を維持）";
     btn.style.cssText = [
       "margin-top:8px",
       "padding:6px 10px",
@@ -610,4 +610,5 @@
   obs.observe(document.documentElement, { childList: true, subtree: true });
   log("MutationObserver started.");
 })();
+
 
